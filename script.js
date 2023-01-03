@@ -40,9 +40,10 @@ $('#animate').removeClass("typed");
 window.requestAnimationFrame(function(){
     $('#animate').addClass("typed");
 });
-
-
+If(res>0)
 $("#animate").html("You have to attend "+res+" lectures.");
+else
+$("#animate").html("Minimum Attendance is Achieved !!!");
 }
 
 
