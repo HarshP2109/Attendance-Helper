@@ -1,0 +1,248 @@
+
+.darker{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.supreme{
+    height: 350px;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 25%;
+    margin-left: 30%;
+}
+
+.box{
+    height: 350px;
+    width: 550px;
+    /* margin: auto; */
+    margin-top: 7%;
+    margin-bottom: 10%;
+    border-radius: 10%;
+
+}
+
+.Row{
+    height: 25%;
+    width: 100%;
+}
+
+.w3{
+    position: relative;
+    top:-3%
+}
+
+.words{
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    /* font-family: verdana; */
+  
+    /* color: #e798fb; */
+    margin-left: 5%;
+    transition: 2s;
+    margin-top: 0;
+    margin-bottom: 0%;
+}
+
+.check{
+    position: relative;
+    top: 14.5%;
+    left: 7%;
+    cursor: pointer;
+}
+.warn{
+    position: relative;
+    top: -25%;
+    left: 65px;
+    font-size: 15px;
+
+}
+
+
+.one{
+    position: relative;
+    top: 29%;
+    left: 25%; 
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.two{
+    position: relative;
+    top: 30%;
+
+}
+.three{
+    position: relative;
+    top: -28%;
+}
+
+.four{
+    position: relative;
+    top:80%;
+}
+
+.inputer{
+    height: 40px;
+    width: 58px;
+   
+    border-radius: 25%;
+    margin: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    font-size:20px;
+    border-top: 0px;
+    border-left: 0cm;
+    border-bottom: 0ch;
+    border-right: 0ch;
+    font-weight: bold;
+}
+
+.bet{
+    position: relative;
+    top:-57%;
+    left: 75.3%;
+    width: 0%;
+    font-size: 40px;
+}
+
+.fir{
+    position:relative;
+    top:5%;
+    left: 80%;
+    width: 65px;
+}
+.sec{
+    position: relative;
+    top:-8%;
+    left: 67%;
+    
+}
+.thir{
+    position: relative;
+    top:-107%;
+    left: 84%;
+}
+.for{
+    position:relative;
+    top:-68%;
+    left: 80%;
+}
+
+
+.opac{
+    opacity: 0.3;
+}
+
+.place{
+    height: 40px;
+    width: 80px;
+    position: relative;
+    left: 85%;
+    bottom: 44%;
+    
+    border-top: 0px;
+    border-left: 0cm;
+    border-bottom: 0ch;
+    border-right: 0ch;
+    /* background-color: red; */
+}
+
+.typo-box{
+    display: inline-block;
+    position: relative;
+    top: 25%;
+    left: 5%;
+  }
+  .typed{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 5.5s steps(30, end) forwards, blinking .8s infinite;
+    font-size: 18px;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 103% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+
+.last-cont{
+    height: 150vh;
+    width: 100vw;
+    position: relative;
+    margin-bottom: 10%;
+    /* background-color: blue; */
+}
+
+.instruct{
+    margin: auto;
+    height: 800px;
+    width: 1000px;
+    position:relative;
+    top: 10%;
+    border-radius: 10%;
+}
+
+.ins{
+    margin: auto;
+    height: 80px;
+    width: 300px;
+    position: relative;
+    top: 9%;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: rgb(255, 249, 249); */
+}
+
+.writing{
+    position: relative;
+    top: 14%;
+    margin-left: 10%;
+    margin-right: 50px;
+}
+
+span{
+    font-size: 30px;
+    /* font-weight: 540; */
+}
+
+.logos{
+    height: 100px;
+    max-width: 500px ;
+    /* background-color: black; */
+    position: relative;
+    left: 250px;
+    top: 190px;
+}
+
+.logo1{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 0px;
+    cursor: pointer;
+}
+.logo2{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -50px;
+    left: 200px;
+    cursor: pointer;
+}
+.logo3{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 400px;
+    top: -100px;
+    border: 2px;
+    cursor: pointer;
+}
