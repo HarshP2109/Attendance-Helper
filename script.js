@@ -43,7 +43,7 @@ window.requestAnimationFrame(function(){
 If(res>0)
 $("#animate").html("You have to attend "+res+" lectures.");
 else
-$("#animate").html("Minimum Attendance is Achieved !!!");
+$("#animate").html("Minimum Attendance is Already Achieved !!!");
 }
 
 
