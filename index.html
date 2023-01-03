@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Helper</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="try.css">
+    <link id="changer" rel="stylesheet" href="day.css">
+    
+</head>
+<body>
+    <div class="darker">
+        <input type="checkbox" id="toggle" class="tog" onclick="modechanger()">
+        <label for="toggle" class="placer"></label>
+    </div>
+    
+  <div class="supreme"> 
+    <div class="box">
+        <div class="Row w1">
+        <p class="words one">ATTENDANCE ?</p>
+        <!-- <input type="text" name="attu" class="fir inputer" placeholder="__%"> -->
+        </div>
+        <div class="Row w2">
+        <p class="words two">How much Lecture you attended ?</p>
+        <input type="text" name="kitna" class="sec inputer"><p class="words bet">/</p><input type="text" name="outof" class="thir inputer">
+        </div>
+        <div class="Row w3">
+        <input class='check' type="checkbox" id="tick" onclick="ticker()" ><p class="warn" >Min. For College</p>
+        <p class=" words three ">How much is your expected attendance ??</p>
+        <input type="text" name="lalchi" class="for inputer" placeholder="__%" >
+        </div>
+        <div class="Row w4">
+            <div class="typo-box">
+                <div id='animate' class="typed words four"></div></div>
+        </div>
+    </div>
+
+    <div class="place">
+        <button class="sub" role="button" onclick="resulte()">Calculate</button>
+    </div>
+</div> 
+       
+        
+  <div class="last-cont">
+    <div class="instruct words">
+        <div class="ins imp">INSTRUCTION</div>
+        <div class="writing words">
+             
+            <span> 1) Fill in the left box with the total number of lectures you have attended.    </span> 
+             <br>
+             <br>
+            <span> 2) Fill in the right box with the total number of lectures held in college.  </span> 
+            <br> 
+            <br>
+             <span> 3) Choose your desired attendance percentage by either selecting the minimum requirement of 75% or entering a higher percentage in the last box.    </span> 
+             <br>
+             <br>
+              <span> 4) The calculator will show you how many lectures you need to attend to reach your desired attendance percentage.  </span>
+            <br>
+        </div>
+
+        <div class="logos">
+            <div class="logo1"><a href="https://github.com/HarshP2109"><img src="photos/github.svg" alt="github"></a></div>
+            <div class="logo2"><a href="https://www.linkedin.com/in/harshpimpale/"><img src="photos/linkedin.svg" alt="linkedIn"></a></div>
+            <div class="logo3"><a href="https://twitter.com/Harsh212003"><img src="photos/twitter.svg" alt="twitter"></a></div>
+        </div>
+    </div>
+    
+  </div>
+  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+<body>
+</html>
