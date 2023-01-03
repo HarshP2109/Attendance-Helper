@@ -1,0 +1,98 @@
+body{
+    background-color: #ced4de;
+}
+
+.box{
+    background-color: #e0e0e0;
+    box-shadow: 5px 5px 11px #828282 , -5px -5px 11px #ffffff;
+}
+
+.words{
+    color: black;
+    /* text-shadow: #b3b3b3 5px; */
+}
+.warn{
+    color: #1115fd;
+    font-weight: bold;
+}
+
+.one{
+    color: #fc1e1e;
+    text-shadow: 
+        .25px 1.9px .25px #010455,
+    .25px 3.5px 1.5px rgba(16,16,16,0.4),
+    .25px 7.5px 15px rgba(16,16,16,0.4);
+}
+
+.inputer{
+    background-color: #ced4de;
+    box-shadow: inset 5px 5px 7px #828282, inset -5px -5px 7px #ffffff;
+    /* color: black; */
+}
+
+
+.sub {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    border-radius: 30%;
+  }
+  
+  .sub:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .sub:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .sub:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+  .instruct{
+    background-color: #ced4de;
+    box-shadow: inset 5px 5px 20px #828282, inset -5px -5px 20px #ffffff;
+  }
+
+  .ins{
+    color: red;
+
+    text-shadow: 
+        0.375px 3.75px 0.375px #919191,
+        0.375px 3.75px 2.25px rgba(16,16,16,0.4),            
+        0.375px 11.25px 22.5px rgba(16,16,16,0.4);
+  }
+
+  span{
+    text-shadow:  .25px 1px .25px #5f5f7b,
+            .25px 1.5px 1px rgba(16,16,16,0.4),
+            .25px 1.5px 15px rgba(16,16,16,0.4);
+  }
